@@ -1,0 +1,345 @@
+*{
+  font-family: 'Neo Sans Arabic', 'arial';
+  direction: rtl;
+  box-sizing: border-box;
+}
+ul{
+  padding: 0;
+  margin: 0;
+}
+nav{
+  background-color: white;
+  font-size: 20px;
+}
+nav div .navbar-brand{
+  margin-right:50px;
+}
+.logo_write, .active{
+  color:#1ba06f;
+  font-weight: bolder;
+  font-size: 23px;
+}
+nav .nav-link a:hover{
+   color: #1ba06f !important;;
+   font-weight: bolder;
+}
+#navbarNav ul li{
+  padding-left: 15px;
+}
+
+.title{
+  font-weight: bold;
+  text-align: center;
+}
+.title span{
+  font-size: 23px;
+  word-spacing: 4px;
+  line-height: 1px;
+}
+.title p{
+  color: #1ba06f;
+  font-size: 15px;
+}
+.firstDiv{
+  background-color: #F5F9FC;
+ }
+ 
+ 
+ .texDiv{
+  
+   width: 100%;
+   height: 100%;
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
+   
+ }
+ .texDiv h1 {
+ size: 42px;
+ font-weight: bold;
+ }
+ .texDiv h3 {
+   size: 42px;
+   font-weight: bold;
+   }
+ 
+  .texDiv p{
+   color:#B7B7B7;
+   size: 20px;
+ }
+ .imgDiv{
+   text-align: center;
+ }
+ #firstImg{
+   width:500px ;
+   height:400px;
+ }
+ #btn1{
+   background-image: linear-gradient(#42B056 , #20A26A);
+   color: white;
+   border-radius: 10px;
+   border: none;
+   padding: 5px;
+   width: 150px;
+   height: 50px;
+   margin-left: 20px;
+ }
+ #btn2{
+   background-color:white;
+   color:black ;
+   border-radius: 10px;
+   padding: 5px;
+   width: 150px;
+   height: 50px;
+ }
+
+.services .arkan{
+ border: 1px solid #ACACAC; 
+ text-align: center;
+height: 200px;
+border-radius: 10px;
+}
+@media only screen and (max-width: 992px) {
+  .services div{
+    margin-bottom: 10px;
+  }
+}
+.services div:hover{
+  background-image: linear-gradient(#20A26A, #42B056 );
+}
+.services p{
+  color: #1ba06f;
+}
+.services img{
+  width: 45px;
+  height: 50px;
+  margin-top: 35px;
+}
+.services h3{
+ font-size: 16px;
+ margin-top: 50px;
+ line-height: 1px;
+}
+.services div:hover{
+  color: white;
+}
+.services div:hover p{
+  color: white;
+}
+.services div:hover img{
+  background-color: white;
+}
+
+.services div:hover img{
+
+ color: white;
+ background-color: white;
+
+}
+
+.help div{
+  border: 1px solid #ACACAC; 
+  text-align: center;
+ height: 180px;
+ width: 220px;
+ border-radius: 10px;
+ background-image: linear-gradient(#20A26A, #42B056 );
+margin: 15px;
+color: white;
+ }
+
+ .help div i{
+color: white;
+font-size: 45px;
+padding: 30px;
+ }
+/*soso*/
+.main{
+  margin-top: 30px;
+   
+}
+.topSpace{
+   background-image: linear-gradient( #ffffff,#f8f8f8 , #FBFBFB);
+  
+}
+
+.sunOrange{
+color: #ff9933;
+
+}
+.MainGreen{
+   color: #20A26A;
+}
+.time {
+   color: #20A26A;
+   text-align: center;
+}
+
+.linetime{
+   margin-top: 22px;
+}
+.linetime1{
+   margin-top: 30px;
+ 
+}
+.linetime1_Style{
+   margin-right: 145px;
+}
+/* hhhhhhhhhhhhhhhhhh */
+.AzkarDiv{
+background-color: #1d1d35;
+color: white;
+padding-top: 30px;
+padding-bottom: 30px;
+}
+.serviceText{
+  text-align: center;
+}
+.askar{
+ margin-bottom: 30px;
+}
+
+.firstRow{
+  border-radius: 10px;
+  background-color: #23304b ;
+  display: flex;
+}
+.counter{
+  background-image: linear-gradient(#20A26A,#42B056);
+  color: white;
+  text-align: center;
+  border-radius: 10px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+@media only screen and (max-width: 992px) {
+  .zekrDiv{
+    order: -1;
+  }
+}
+.counter-num{
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.counter .counter-input{
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.ShareDiv{
+  text-align: center;
+ background-color: #2e3a54 ;
+border-top-left-radius: 10px;
+border-bottom-left-radius: 10px;
+display: flex;
+justify-content: center;
+align-items: center;
+padding: 20px;
+box-sizing: border-box;
+}
+.zekrDiv{
+ padding: 50px;
+}
+
+.basmal{
+color: #1ba06f;
+font-family: 'PDMS_Saleem_QuranFont_shipped';
+}
+.soura{
+font-size: 20px;
+font-family: 'PDMS_Saleem_QuranFont_shipped';
+}
+.name{
+  color: #1ba06f;
+}
+.popover{
+  width: 94px;
+  
+}
+/* sohila */
+.duaa-header{
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 0px;
+}
+
+#spanDoaa{
+  font-size: 30px;
+ font-weight: bold;
+  padding-top: 10px;
+
+}
+.prayerBtn{
+   text-align: left;
+  
+}
+#btnwatch{
+
+ background-color:white;
+   color:black ;
+   border-radius: 10px;
+   padding: 5px;
+   width: 150px;
+   height: 50px;
+
+
+}
+#more1 {display: none;}
+#more2 {display: none;}
+#more3 {display: none;}
+
+.adeia button{
+  border-radius: 10px;
+  background-image: linear-gradient(#20A26A,#42B056);
+  color: white;
+  border: none;
+}
+.duaa{
+  padding: 50px 0px;
+}
+.card-style{
+  padding: 20px;
+  box-sizing: border-box;
+}
+/* footer */
+.footer{
+  border: 1px solid white;
+  background-color: #1d1d35;
+ color: white;
+ 
+ }
+ ul li a{
+     text-decoration: none;
+ }
+ ul li a:hover{
+    color: #1ba06f !important;
+    font-weight: bolder;
+ }
+ #footAzkar{
+     text-decoration: none;
+     color: #1ba06f;
+     font-size: 35px;
+    text-align: center;
+ }
+ .Copyright{
+     text-decoration: none;
+     color: #1ba06f !important; 
+     font-weight: bolder;
+ }
+ 
+ .socialM {
+     background-image: linear-gradient( #20A26A ,#42B056);
+     text-align: center;
+     width: 35px;
+     height: 35px;
+     border-radius: 50%;
+     padding-top: 10px;
+ }
+ 

@@ -1,0 +1,250 @@
+<html>
+    <head>
+        <style>
+*{
+  font-family: 'Neo Sans Arabic', 'arial';
+  direction: rtl;
+}
+.AzkarDiv{
+background-color: #1d1d35;
+color: white;
+padding-top: 30px;
+padding-bottom: 30px;
+}
+.serviceText{
+  text-align: center;
+}
+.askar{
+  margin: auto;
+  padding: 30px;
+}
+
+.firstRow{
+  border-radius: 10px;
+  background-color: #23304b ;
+}
+.counter{
+  background-image: linear-gradient(#20A26A,#42B056);
+  color: white;
+  text-align: center;
+  border-radius: 10px;
+}
+.counter h1{
+  padding-top: 70px;
+}
+
+.ShareDiv{
+  text-align: center;
+ background-color: #2e3a54 ;
+border-top-left-radius: 10px;
+border-bottom-left-radius: 10px;
+padding-top: 80px;
+}
+.zekrDiv{
+ padding: 50px;
+}
+
+.basmal{
+color: #1ba06f;
+font-family: 'PDMS_Saleem_QuranFont_shipped';
+}
+.soura{
+font-size: 20px;
+font-family: 'PDMS_Saleem_QuranFont_shipped';
+}
+.name{
+  color: #1ba06f;
+}
+
+
+        </style>
+          <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- Icons -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<link href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css" rel="stylesheet"/>
+<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+    </head>
+    <body>
+      <section id="sec5">
+        <div class="container-fluid AzkarDiv">
+        
+           <div class="row serviceText " >
+            <!-- <button type="button" class="btn btn-secondary m-3" data-bs-container="body"
+             data-bs-toggle="popover" data-bs-placement="top"
+              data-bs-content= "Top popover">
+              Popover on top
+            </button> -->
+             <h1>الأذكار</h1>
+             <p>هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة</p>
+           </div>
+           <div class="container-fluid d-flex justify-content-center askar">
+             <div class="row col-10  firstRow">
+             <div class="col-lg-2 counter " data-aos="zoom-in"> 
+                 <h1 Id="Hcount1">0</h1>  
+                <input type="image" src="./Images/reload.svg" onclick="updateCount('Hcount1')" class="btcount"/>
+                              
+               </div>
+               <div class="col-lg-9 zekrDiv" data-aos="zoom-in">
+                
+                 <P clss="basmal">بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ</P>    
+                 <p clss="soura">قُلْ هُوَ اللَّهُ أَحَدٌ اللَّهُ الصَّمَدُ  لَمْ يَلِدْ وَلَمْ يُولَدْ وَلَمْ يَكُنْ لَهُ كُفُوًا أَحَدٌ</p>    
+                 <p>من قالها حين يصبح وحين يمسي كفته من كل شيء (<span class="name">الإخلاص والمعوذتين</span>)</p>
+               </div>
+               <div class="col-lg-1 ShareDiv" data-aos="zoom-in">
+                <!-- <button type="button" class="btn" data-bs-container="body"
+                data-bs-toggle="popover" data-bs-placement="top"
+                 data-bs-content="Top popover"><img src="./Images/share .svg"/></button> -->
+
+                 <button class="btn btn-primary edit" data-html="true" data-toggle="popover" id="showPopover"><img src="./Images/share .svg"/></button>
+                 <div id="popup-content" class="hide">
+                  <p>Simple popover with a close button.</p>
+                  <button class="btn btn-primary OK">OK</button>
+              </div>
+               
+                </div>
+              </div>
+             </div>
+             <div class="container-fluid d-flex justify-content-center askar">
+               <div class="row col-10  firstRow">
+               <div class="col-lg-2 counter " data-aos="zoom-in"> 
+                   <h1 Id="Hcount2">0</h1>  
+                  <input type="image" src="./Images/reload.svg" onclick="updateCount('Hcount2')" class="btcount"/>
+                                
+                 </div>
+                 <div class="col-lg-9 zekrDiv" data-aos="zoom-in">
+                  
+                   <P class="basmal">بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ</P>    
+                   <p class="soura">قُلْ هُوَ اللَّهُ أَحَدٌ اللَّهُ الصَّمَدُ  لَمْ يَلِدْ وَلَمْ يُولَدْ وَلَمْ يَكُنْ لَهُ كُفُوًا أَحَدٌ</p>    
+                   <p>من قالها حين يصبح وحين يمسي كفته من كل شيء (<span class="name">الإخلاص والمعوذتين</span>)</p>
+                 </div>
+                 <div class="col-lg-1 ShareDiv" data-aos="zoom-in">
+                   <input type="image" src="./Images/share .svg"  onmouseover="Share()" class="btcount"/>   
+                 </div>
+                </div>
+               </div>
+               <div class="container-fluid d-flex justify-content-center askar">
+                 <div class="row col-10  firstRow">
+                 <div class="col-lg-2 counter " data-aos="zoom-in"> 
+                     <h1 Id="Hcount3">0</h1>  
+                    <input type="image" src="./Images/reload.svg" onclick="updateCount('Hcount3')" class="btcount"/>
+                                  
+                   </div>
+                   <div class="col-lg-9 zekrDiv" data-aos="zoom-in">
+                    
+                     <P class="basmal">بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ</P>    
+                     <p class="soura">قُلْ هُوَ اللَّهُ أَحَدٌ اللَّهُ الصَّمَدُ  لَمْ يَلِدْ وَلَمْ يُولَدْ وَلَمْ يَكُنْ لَهُ كُفُوًا أَحَدٌ</p>    
+                     <p>من قالها حين يصبح وحين يمسي كفته من كل شيء (<span class="name">الإخلاص والمعوذتين</span>)</p>
+                   </div>
+                   <div class="col-lg-1 ShareDiv" data-aos="zoom-in">
+                     <input type="image" src="./Images/share .svg"  onmouseover="Share()" class="btcount"/>   
+                   </div>
+                  </div>
+                 </div>
+                 <div class="container-fluid d-flex justify-content-center askar">
+                   <div class="row col-10  firstRow">
+                   <div class="col-lg-2 counter " data-aos="zoom-in"> 
+                       <h1 id="Hcount4">0</h1>  
+                      <input type="image" src="./Images/reload.svg" onclick="updateCount('Hcount4')"class="btcount"/>
+                                    
+                     </div>
+                     <div class="col-lg-9 zekrDiv" data-aos="zoom-in">
+                      
+                       <P class="basmal">بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ</P>    
+                       <p class="soura">قُلْ هُوَ اللَّهُ أَحَدٌ اللَّهُ الصَّمَدُ  لَمْ يَلِدْ وَلَمْ يُولَدْ وَلَمْ يَكُنْ لَهُ كُفُوًا أَحَدٌ</p>    
+                       <p>من قالها حين يصبح وحين يمسي كفته من كل شيء (<span class="name">الإخلاص والمعوذتين</span>)</p>
+                     </div>
+                     <div class="col-lg-1 ShareDiv" data-aos="zoom-in">
+                       <input type="image" src="./Images/share .svg"  onmouseover="Share()" class="btcount"/>   
+                     </div>
+                    </div>
+                   </div>
+                   <div class="container-fluid d-flex justify-content-center askar">
+                     <div class="row col-10  firstRow">
+                     <div class="col-lg-2 counter " data-aos="zoom-in"> 
+                         <h1 Id="Hcount5">0</h1>  
+                        <input type="image" src="./Images/reload.svg" onclick="updateCount('Hcount5')" class="btcount"/>
+                                      
+                       </div>
+                       <div class="col-lg-9 zekrDiv" data-aos="zoom-in">
+                        
+                         <P class="basmal">بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ</P>    
+                         <p class="soura">قُلْ هُوَ اللَّهُ أَحَدٌ اللَّهُ الصَّمَدُ  لَمْ يَلِدْ وَلَمْ يُولَدْ وَلَمْ يَكُنْ لَهُ كُفُوًا أَحَدٌ</p>    
+                         <p>من قالها حين يصبح وحين يمسي كفته من كل شيء (<span class="name">الإخلاص والمعوذتين</span>)</p>
+                       </div>
+                       <div class="col-lg-1 ShareDiv" data-aos="zoom-in">
+                         <input type="image" src="./Images/share .svg"  onmouseover="Share()" class="btcount"/>   
+                       </div>
+                      </div>
+                     </div>
+                     <div class=" row serviceText" >
+                       <span><button id="btn1" >شاهد الكل </button></span>
+                     </div>
+                     
+       </div>
+       
+       </section>
+         
+    </body>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script> -->
+    <script>
+
+function updateCount(id)
+{
+ var value=parseInt(document.getElementById(id).textContent);
+value+=1;
+document.getElementById(id).textContent=value.toString();
+}
+
+// var popoverTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="popover"]'))
+// var popoverList = popoverTriggerList.map(function (popoverTriggerEl) {
+//   return new bootstrap.Popover(popoverTriggerEl)
+// })
+$(document).ready(function() {
+  
+  var createPopover = function (item, title) {
+                       
+        var $pop = $(item);
+        
+        $pop.popover({
+            placement: 'right',
+            title: ( title || '&nbsp;' ) + ' <a class="close" href="#">&times;</a>',
+            trigger: 'click',
+            html: true,
+            content: function () {
+                return $('#popup-content').html();
+            }
+        }).on('shown.bs.popover', function(e) {
+            //console.log('shown triggered');
+            // 'aria-describedby' is the id of the current popover
+            var current_popover = '#' + $(e.target).attr('aria-describedby');
+            var $cur_pop = $(current_popover);
+          
+            $cur_pop.find('.close').click(function(){
+                //console.log('close triggered');
+                $pop.popover('hide');
+            });
+          
+            $cur_pop.find('.OK').click(function(){
+                //console.log('OK triggered');
+                $pop.popover('hide');
+            });
+        });
+
+        return $pop;
+    };
+});
+    </script>
+</html>
+
+
+  
